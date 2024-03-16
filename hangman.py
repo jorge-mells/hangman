@@ -43,7 +43,7 @@ def hangman():
                 if guess.lower() == word[i]:
                     current_letters[i] = guess.capitalize()
         if ''.join(current_letters).lower() == word:
-            print(f"Current word: {current}\n (test: {word})")
+            print(f"Current word: {' '.join(current_letters)}\n")
             return f"You have completed the game\nYour score: {lives}/{total}"
     return f"You have failed the game\nYour score: {lives}/{total}\nThe word was: {word}"
 if __name__ == "__main__":
