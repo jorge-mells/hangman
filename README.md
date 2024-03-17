@@ -2,7 +2,7 @@
 
 A single player hangman game written in Python.
 
-The possible words are specified in `dictionary.py`.
+The possible words are specified in `dict.py`.
 You get as many tries as there are unique letters in the word.
 
 Example game(may have a few more functionalities than shown here):
